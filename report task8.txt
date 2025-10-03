@@ -1,0 +1,56 @@
+## Objective
+The objective of this task was to set up and use a Virtual Private Network (VPN), verify that the VPN connection works by checking the IP address before and after connection, and study the features and limitations of the chosen VPN.
+
+---
+
+## Steps Performed
+
+1. *Account Creation:*  
+   Signed up for a free account with the VPN provider.  
+
+2. *Installation:*  
+   Downloaded and installed the official VPN client on my system.  
+
+3. *Before Connection (Baseline):*  
+   - Checked my original IP address at [whatismyipaddress.com].  
+    
+
+4. *Connecting to VPN:*  
+   - Opened the VPN client and connected to a server using the *WireGuard (UDP)* protocol.  
+5. *After Connection:*  
+   - Verified that my IP address changed by checking again at [whatismyipaddress.com].  
+     
+
+---## Results
+
+- *IP Address Before VPN:* (Example) 123.45.67.89  
+- *IP Address After VPN:* (Example) 185.220.101.5  
+- The IP address successfully changed after connecting to the VPN, confirming the VPN tunnel was active.  
+- Speed test showed a slight decrease in speed after VPN connection, which is expected.  
+
+
+---
+## VPN Features
+
+- *Protocol Used:* WireGuard (UDP)  
+  A modern, lightweight, and fast VPN protocol that provides high performance and security compared to older protocols.  
+
+- *Encryption:* ChaCha20 encryption with Poly1305 authentication  
+  Ensures that all traffic is strongly protected and cannot be easily intercepted.  
+
+- *Logging Policy & Jurisdiction:*  
+  - If using ProtonVPN → Based in *Switzerland* with a strict *no-logs policy*.  
+  - If using Windscribe → Based in *Canada*, privacy-friendly with minimal logging.  
+
+- *Free Plan Limitations:*  
+  - ProtonVPN Free → Only 3 server locations (US, Netherlands, Japan), 1 device, medium speed.  
+  - Windscribe Free → 10 GB/month data limit, ~10 countries available, 1 device.  
+
+- *Extra Features (depending on provider):*  
+  - Kill switch (blocks internet if VPN disconnects).  
+  - DNS leak protection.  
+  - Split tunneling (choose which apps/websites use VPN). 
+
+
+ ## Conclusion
+This task demonstrated how a VPN masks the user’s real IP address, encrypts internet traffic, and provides an extra layer of security when browsing online. Although VPNs improve privacy, free tiers often come with speed and server limitations. VPNs are a valuable tool for protecting data on public networks but should not be considered a complete solution for anonymity.this is the sample like this make a report
